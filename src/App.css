@@ -1,0 +1,41 @@
+p.subtitle{
+  max-width: 500px;
+  color: grey;
+}
+
+.filter-inputs .form-select{
+  border: none;
+  padding: 9px 0px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  width: 150px;
+}
+
+
+.filter-inputs .form-select:hover{
+  cursor: pointer;
+}
+
+.open-now-filter {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.open-now-filter:hover{
+  cursor: pointer;
+}
+
+.open-now-filter label {
+  margin-right: 10px;
+}
+
+/* .price-filter,
+.categories-filter {
+  margin-top: 10px;
+} */
+
+.clear-button {
+  text-align: center;
+}
