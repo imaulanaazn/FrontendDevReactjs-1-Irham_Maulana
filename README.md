@@ -48,4 +48,4 @@ Berikut adalah langkah-langkah untuk memulai proyek ini:
   ```
 
  ## Deployed on Vercel
-[![Deployed with Vercel](https://vercel.com/button)](https://restaurant-dummy-app.vercel.app)
+[![Deployed with Vercel](https://vercel.com/button)](https://frontend-dev-reactjs-1-irham-maulana.vercel.app/)
