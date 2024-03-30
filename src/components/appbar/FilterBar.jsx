@@ -45,15 +45,15 @@ const handleCategoryChange = (event) => setFilter((prev) => ({ ...prev, category
   return (
     <div className="filter-section border-y py-3 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
         <p className='mr-10'>Filter By : </p>
-        <div className="filter-inputs flex-1 flex flex-wrap gap-x-4">
+        <div className="filter-inputs flex-1 flex flex-wrap gap-x-4 lg:gap-x-6">
           {/* Open Now Filter */}
-          <div className="open-now-filter flex gap-2">
+          <div className="open-now-filter flex items-center gap-2 border-b border-slate-400 text-base">
             <input type="radio" id="open-now" name="open-now" className="form-radio" checked={filter.open} onChange={handleOpenChange}/>
-            <label for="open-now">Open Now</label>
+            <label for="open-now mr-4">Open Now</label>
           </div>
           {/* Price Filter */}
           <div className="price-filter">
-            <select name="price" id="price" className="form-select" onChange={handlePriceChange}>
+            <select name="price" id="price" className="form-select py-3 border-b border-slate-400 text-base w-36" onChange={handlePriceChange}>
               <option value="0">Select Price</option>
               <option value="0">Rp {'>'} 0</option>
               <option value="100000">Rp {'>'} 100.000</option>
@@ -65,7 +65,7 @@ const handleCategoryChange = (event) => setFilter((prev) => ({ ...prev, category
           </div>
           {/* Categories Filter */}
           <div className="categories-filter">
-            <select name="categories" id="categories" className="form-select" onChange={handleCategoryChange}>
+            <select name="categories" id="categories" className="form-select py-3 border-b border-slate-400 text-base w-40" onChange={handleCategoryChange}>
               <option value="">Select Category</option>
               <option value="italia">Italia</option>
               <option value="modern">Modern</option>
